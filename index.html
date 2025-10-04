@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Equations and Balancing Study Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Set up the Inter font and a dark theme */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Deep blue/charcoal background */
+            color: #c9d1d9; /* Light text color */
+        }
+        .study-card {
+            background-color: #161b22; /* Slightly lighter card background */
+            border: 1px solid #30363d;
+        }
+        .heading {
+            border-bottom: 2px solid #238636; /* Green accent line */
+        }
+    </style>
+</head>
+<body>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'accent-green': '#238636',
+                    }
+                }
+            }
+        }
+    </script>
+    <div class="min-h-screen p-4 sm:p-8 flex justify-center">
+        <div class="w-full max-w-4xl space-y-8">
+
+            <!-- Header and Title -->
+            <header class="text-center pb-4 pt-2">
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-accent-green mb-2">
+                    Chemical Equations and Balancing
+                </h1>
+                <p class="text-xl text-gray-400">Essential Study Guide for Your Chemistry Test</p>
+            </header>
+            
+            <!-- Summary -->
+            <div class="study-card p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-semibold heading pb-3 mb-4 text-white">Overall Summary</h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Chemical equations are the symbolic representation of chemical reactions. The most fundamental requirement for any chemical equation is that it must be <strong>balanced</strong>. This act of balancing is required to uphold the <strong>Law of Conservation of Mass</strong>, which dictates that atoms cannot be created or destroyed during a chemical reaction. Therefore, the total number of atoms for each element must be equal on both the reactant and product sides. Mastery requires identifying the components of an equation, interpreting formulas correctly (including polyatomic ions), and applying balancing coefficients systematically.
+                </p>
+            </div>
+
+            <!-- Key Concepts -->
+            <div class="study-card p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-semibold heading pb-3 mb-4 text-white">Key Concepts</h2>
+                <ul class="list-disc pl-5 space-y-3 text-gray-300">
+                    <li><strong>The Law of Conservation of Mass:</strong> This law is the primary reason we balance equations. It ensures that the mass of the reactants equals the mass of the products.</li>
+                    <li><strong>Coefficients vs. Subscripts:</strong>
+                        <ul>
+                            <li class="list-disc ml-6"><strong>Coefficients</strong> are large whole numbers placed <em>in front</em> of a formula to balance the number of atoms. Changing a coefficient changes the <em>amount</em> of the substance.</li>
+                            <li class="list-disc ml-6"><strong>Subscripts</strong> are small numbers <em>within</em> a formula and cannot be changed. Changing a subscript changes the <em>identity</em> of the substance.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Combustion Products:</strong> A typical combustion reaction (a hydrocarbon reacting with O<sub>2</sub>) always produces the same two products: <strong>CO<sub>2</sub></strong> (carbon dioxide) and <strong>H<sub>2</sub>O</strong> (water).</li>
+                    <li><strong>Balancing Strategy (Combustion):</strong> When balancing combustion, the most effective order is generally to balance <strong>Carbon (C)</strong> first, then <strong>Hydrogen (H)</strong>, and finally <strong>Oxygen (O)</strong> last.</li>
+                    <li><strong>Polyatomic Ion Rule:</strong> If a polyatomic ion (like NO<sub>3</sub><sup>-</sup> or SO<sub>4</sub><sup>2-</sup>) remains intact (unchanged) on both sides of the equation, treat it as a <strong>single unit</strong> when counting atoms for balancing.</li>
+                    <li><strong>Diatomic Elements:</strong> Remember the 'Magnificent Seven' elements that exist as diatomic molecules when uncombined: <strong>H<sub>2</sub>, N<sub>2</sub>, O<sub>2</sub>, F<sub>2</sub>, Cl<sub>2</sub>, Br<sub>2</sub>, and I<sub>2</sub></strong>.</li>
+                </ul>
+            </div>
+
+            <!-- Vocabulary List -->
+            <div class="study-card p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-semibold heading pb-3 mb-4 text-white">Vocabulary List</h2>
+                <dl class="space-y-3 text-gray-300">
+                    <dt class="font-bold text-accent-green">Reactants:</dt>
+                    <dd class="ml-4">The starting materials, written on the left side of the arrow.</dd>
+                    
+                    <dt class="font-bold text-accent-green">Products:</dt>
+                    <dd class="ml-4">The substances formed by the reaction, written on the right side of the arrow.</dd>
+
+                    <dt class="font-bold text-accent-green">Coefficients:</dt>
+                    <dd class="ml-4">The numbers used to balance an equation; they represent the molar ratio of substances.</dd>
+
+                    <dt class="font-bold text-accent-green">Subscript:</dt>
+                    <dd class="ml-4">The small number in a chemical formula indicating the number of atoms of an element in a molecule.</dd>
+                    
+                    <dt class="font-bold text-accent-green">Aqueous:</dt>
+                    <dd class="ml-4">A state symbol meaning the substance is dissolved in water.</dd>
+                    
+                    <dt class="font-bold text-accent-green">Catalyst:</dt>
+                    <dd class="ml-4">A substance that speeds up a reaction without being consumed; often written above the arrow.</dd>
+
+                    <dt class="font-bold text-accent-green">Reversible Reaction:</dt>
+                    <dd class="ml-4">A symbol indicating the reaction can proceed in both the forward and reverse directions.</dd>
+                </dl>
+            </div>
+
+            <!-- Key Questions -->
+            <div class="study-card p-6 rounded-xl shadow-lg mb-8">
+                <h2 class="text-2xl font-semibold heading pb-3 mb-4 text-white">Key Questions for Review (Active Recall)</h2>
+                <ol class="list-decimal pl-5 space-y-3 text-gray-300">
+                    <li>What is the final, balanced form of the methane combustion reaction: CH<sub>4</sub> + ... O<sub>2</sub> &rarr; ... CO<sub>2</sub> + ... H<sub>2</sub>O?</li>
+                    <li>If you have 4Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>, how many total oxygen atoms are present?</li>
+                    <li>Explain why you cannot change the subscript in H<sub>2</sub>O to H<sub>2</sub>O<sub>2</sub> while balancing an equation.</li>
+                    <li>What are the four common state symbols used in chemical equations, and what does each one indicate?</li>
+                    <li>How would you balance a reaction involving a polyatomic ion like SO<sub>4</sub><sup>2-</sup>?</li>
+                </ol>
+            </div>
+
+            <!-- Footer -->
+            <footer class="text-center text-sm text-gray-500 py-4">
+                Practice makes perfect. Review your coefficients and subscripts!
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
